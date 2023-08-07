@@ -1,0 +1,73 @@
+body{background-color: antiquewhite;
+      padding: 20px;}
+
+
+.section{background-color: whitesmoke;
+height: 500px;
+border-radius: 20px;
+padding: 20px;
+max-width: 350px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.form-style{ display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+            align-items: center;}
+
+.add-btn{ height: 30px;
+            width: 30px;
+            border-radius: 50px;
+            background-color: rgb(10, 201, 137);
+            border: none;
+            color:wheat ;
+            font-size: 25px;
+}
+ul{
+      list-style: none;
+      align-items: center;
+}
+
+.input-s{
+      border-radius: 20px;
+      width: 250px;
+      margin-right: 5px;
+      height: 30px;
+      padding:5px
+}
+
+.head{font-size: 30px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+.list-style{
+      display: flex;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    padding:5px;
+    height: 20px;
+    margin-bottom: 5px;
+  
+}
+
+
+.list-style2{ display: flex;
+      justify-content: space-between;
+      background-color: lightgreen;
+      padding:5px;
+      height: 20px;
+      margin-bottom: 5px;
+      text-decoration: line-through;
+
+}
+
+.delete-btn{
+      border-radius: 20px;
+      border: none;
+      color:wheat;
+      background-color: red;
+      font-size: 12px;
+}
